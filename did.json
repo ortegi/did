@@ -3,21 +3,21 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
   ],
-  "id": "did:web:raw.githubusercontent.com:{Repository Owner}:{Repository}:{branch}",
+  "id": "did:web:raw.githubusercontent.com:ortegi:did:main",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:{GitHub Profile Name}:{Repository}:{branch}#{A unique ID for this verification method}",
+      "id": "did:web:raw.githubusercontent.com:ortegi:did:main#1",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "{Replace with your JWK}",
-        "e": "{Replace with your JWK}",
+        "n": "oy74SPX6Wps7OqYcHFskDiKgFRJJHDBwDi2_CIFGLmJLKazFYabfGw7mlgL_eN6HvplRn4CjdXmRTIVp3Sl84kVJkj7-6jF2AdrOjb5QSJodQ8hTOwQRWK7GkmmEq0uejIEUIjK3HbnI7giNHdb-W7EOvVdbUm9gMzWW3XOREybenx4Ee1Hc7SxNb5xHPzrGZt1m6XluMAc6l5orht4fqQhO5p-TkBizPYnr_skMPfZsxj3QlqKuqbsyhd9lX4kD9iKnAHsZMuuVlceP_4tCh1m6NUY3cjLJgkvOnTJni9_B_nink2GD0Z9Ymf89N-eLbuYAcbdXE47noEv7I-18uw",
+        "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/{GitHub Profile Name}/{Repository}/{branch}/{fileName}.pem"
+        "x5u": "https://raw.githubusercontent.com/ortegi/did/main/cert.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:{GitHub Profile Name}:{Repository}:{branch}#{A unique ID for this verification method}"
+    "did:web:raw.githubusercontent.com:ortegi:did:main#1"
   ]
 }
